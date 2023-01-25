@@ -19,11 +19,7 @@ Select Name + ' ' + color AS 'name and color'
 From Production.Product
 Where Color IS NOT NULL
 --6
-Select Name, color
-From Production.Product
-Where color in ('Black','Silver')
-
-Select 'Name' + ':' + Name + '--' + 'color'+':' + Color AS 'name and color'
+Select top 6 'Name' + ':' + Name + '--' + 'color'+':' + Color AS 'name and color'
 From Production.Product
 Where color in ('Black','Silver')
 --8
@@ -35,12 +31,12 @@ Select productId, Name, color
 From Production.Product
 Where color in ('Black','Blue')
 --10
-Select Name,ListPrice
+Select top 6 Name,ListPrice
 FROM Production.Product
 WHERE Name LIKE 'S%'
 Order By Name
 --12
-Select Name,ListPrice
+Select top 5 Name,ListPrice
 FROM Production.Product
 WHERE Name LIKE 'A%' OR Name LIKE 'S%'
 Order By Name
