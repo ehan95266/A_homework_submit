@@ -1,0 +1,5 @@
+/Users/ElvaHan/Projects/hwkleetcode/hwkleetcode/obj/Debug/net6.0/hwkleetcode.csproj.AssemblyReference.cache
+/Users/ElvaHan/Projects/hwkleetcode/hwkleetcode/obj/Debug/net6.0/hwkleetcode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Projects/hwkleetcode/hwkleetcode/obj/Debug/net6.0/hwkleetcode.AssemblyInfoInputs.cache
+/Users/ElvaHan/Projects/hwkleetcode/hwkleetcode/obj/Debug/net6.0/hwkleetcode.AssemblyInfo.cs
+/Users/ElvaHan/Projects/hwkleetcode/hwkleetcode/obj/Debug/net6.0/hwkleetcode.csproj.CoreCompileInputs.cache
