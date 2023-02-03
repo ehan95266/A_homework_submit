@@ -1,0 +1,15 @@
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/bin/Release/net7.0/elva_csharp_tutorial
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/bin/Release/net7.0/elva_csharp_tutorial.deps.json
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/bin/Release/net7.0/elva_csharp_tutorial.runtimeconfig.json
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/bin/Release/net7.0/elva_csharp_tutorial.dll
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/bin/Release/net7.0/elva_csharp_tutorial.pdb
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/obj/Release/net7.0/hwk6OOP.csproj.AssemblyReference.cache
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/obj/Release/net7.0/hwk6OOP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/obj/Release/net7.0/hwk6OOP.AssemblyInfoInputs.cache
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/obj/Release/net7.0/hwk6OOP.AssemblyInfo.cs
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/obj/Release/net7.0/hwk6OOP.csproj.CoreCompileInputs.cache
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/obj/Release/net7.0/elva_csharp_tutorial.dll
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/obj/Release/net7.0/refint/elva_csharp_tutorial.dll
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/obj/Release/net7.0/elva_csharp_tutorial.pdb
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/obj/Release/net7.0/hwk6OOP.genruntimeconfig.cache
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/elva_csharp_tutorial/obj/Release/net7.0/ref/elva_csharp_tutorial.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "elva_csharp_tutorial/1.0.0": {
+        "runtime": {
+          "elva_csharp_tutorial.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "elva_csharp_tutorial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

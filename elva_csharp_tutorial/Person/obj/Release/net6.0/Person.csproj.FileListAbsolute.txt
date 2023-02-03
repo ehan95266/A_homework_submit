@@ -1,0 +1,15 @@
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/bin/Release/net6.0/Person
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/bin/Release/net6.0/Person.deps.json
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/bin/Release/net6.0/Person.runtimeconfig.json
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/bin/Release/net6.0/Person.dll
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/bin/Release/net6.0/Person.pdb
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/obj/Release/net6.0/Person.csproj.AssemblyReference.cache
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/obj/Release/net6.0/Person.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/obj/Release/net6.0/Person.AssemblyInfoInputs.cache
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/obj/Release/net6.0/Person.AssemblyInfo.cs
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/obj/Release/net6.0/Person.csproj.CoreCompileInputs.cache
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/obj/Release/net6.0/Person.dll
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/obj/Release/net6.0/refint/Person.dll
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/obj/Release/net6.0/Person.pdb
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/obj/Release/net6.0/Person.genruntimeconfig.cache
+/Users/ElvaHan/Csharp_Tutorial/elva_csharp_tutorial/Person/obj/Release/net6.0/ref/Person.dll

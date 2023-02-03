@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{BC6D2D38-BEC7-4FAB-BA16-2E0A4641CD30}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.hwk6OOP PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="elva_csharp_tutorial/Program.cs">
+    <Files>
+      <File FileName="elva_csharp_tutorial/Program.cs" Line="22" Column="10" />
+      <File FileName="elva_csharp_tutorial/Dog.cs" Line="23" Column="6" />
+      <File FileName="elva_csharp_tutorial/Pet.cs" Line="31" Column="9" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="elva_csharp_tutorial" expanded="True">
+            <Node name="elva_csharp_tutorial" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+</Properties>
