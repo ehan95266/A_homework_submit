@@ -1,0 +1,15 @@
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/bin/Debug/net6.0/hwk7Generic
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/bin/Debug/net6.0/hwk7Generic.deps.json
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/bin/Debug/net6.0/hwk7Generic.runtimeconfig.json
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/bin/Debug/net6.0/hwk7Generic.dll
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/bin/Debug/net6.0/hwk7Generic.pdb
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/obj/Debug/net6.0/hwk7Generic.csproj.AssemblyReference.cache
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/obj/Debug/net6.0/hwk7Generic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/obj/Debug/net6.0/hwk7Generic.AssemblyInfoInputs.cache
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/obj/Debug/net6.0/hwk7Generic.AssemblyInfo.cs
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/obj/Debug/net6.0/hwk7Generic.csproj.CoreCompileInputs.cache
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/obj/Debug/net6.0/hwk7Generic.dll
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/obj/Debug/net6.0/refint/hwk7Generic.dll
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/obj/Debug/net6.0/hwk7Generic.pdb
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/obj/Debug/net6.0/hwk7Generic.genruntimeconfig.cache
+/Users/ElvaHan/Projects/hwk7Generic/hwk7Generic/obj/Debug/net6.0/ref/hwk7Generic.dll

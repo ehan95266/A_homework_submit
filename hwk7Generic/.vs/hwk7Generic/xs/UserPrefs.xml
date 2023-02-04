@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{3F3F13FD-4E51-417F-A737-B89E2858390A}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.hwk7Generic PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="hwk7Generic/Program.cs">
+    <Files>
+      <File FileName="hwk7Generic/Program.cs" Line="30" Column="24" />
+      <File FileName="hwk7Generic/IRepository.cs" Line="14" Column="6" />
+      <File FileName="hwk7Generic/GenericRepository.cs" Line="42" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="hwk7Generic" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
