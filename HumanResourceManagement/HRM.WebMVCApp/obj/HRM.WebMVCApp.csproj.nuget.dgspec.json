@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.WebMVCApp/HRM.WebMVCApp.csproj": {}
+  },
+  "projects": {
+    "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/HRM.ApplicationCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/HRM.ApplicationCore.csproj",
+        "projectName": "HRM.ApplicationCore",
+        "projectPath": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/HRM.ApplicationCore.csproj",
+        "packagesPath": "/Users/ElvaHan/.nuget/packages/",
+        "outputPath": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ElvaHan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/HRM.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/HRM.Infrastructure.csproj",
+        "projectName": "HRM.Infrastructure",
+        "projectPath": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/HRM.Infrastructure.csproj",
+        "packagesPath": "/Users/ElvaHan/.nuget/packages/",
+        "outputPath": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ElvaHan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/HRM.ApplicationCore.csproj": {
+                "projectPath": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/HRM.ApplicationCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.WebMVCApp/HRM.WebMVCApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.WebMVCApp/HRM.WebMVCApp.csproj",
+        "projectName": "HRM.WebMVCApp",
+        "projectPath": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.WebMVCApp/HRM.WebMVCApp.csproj",
+        "packagesPath": "/Users/ElvaHan/.nuget/packages/",
+        "outputPath": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.WebMVCApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ElvaHan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/HRM.ApplicationCore.csproj": {
+                "projectPath": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/HRM.ApplicationCore.csproj"
+              },
+              "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/HRM.Infrastructure.csproj": {
+                "projectPath": "/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/HRM.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

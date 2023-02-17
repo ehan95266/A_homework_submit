@@ -1,0 +1,15 @@
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/bin/Debug/net6.0/HRM.Infrastructure.deps.json
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/bin/Debug/net6.0/HRM.Infrastructure.dll
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/bin/Debug/net6.0/HRM.Infrastructure.pdb
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/bin/Debug/net6.0/HRM.ApplicationCore.dll
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/bin/Debug/net6.0/HRM.ApplicationCore.pdb
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/obj/Debug/net6.0/HRM.Infrastructure.csproj.AssemblyReference.cache
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/obj/Debug/net6.0/HRM.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/obj/Debug/net6.0/HRM.Infrastructure.AssemblyInfoInputs.cache
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/obj/Debug/net6.0/HRM.Infrastructure.AssemblyInfo.cs
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/obj/Debug/net6.0/HRM.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/obj/Debug/net6.0/HRM.Infrastructure.csproj.CopyComplete
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/obj/Debug/net6.0/HRM.Infrastructure.dll
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/obj/Debug/net6.0/refint/HRM.Infrastructure.dll
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/obj/Debug/net6.0/HRM.Infrastructure.pdb
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.Infrastructure/obj/Debug/net6.0/ref/HRM.Infrastructure.dll

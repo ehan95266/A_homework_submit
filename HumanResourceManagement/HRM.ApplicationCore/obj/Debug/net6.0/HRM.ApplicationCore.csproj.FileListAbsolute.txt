@@ -1,0 +1,12 @@
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/bin/Debug/net6.0/HRM.ApplicationCore.deps.json
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/bin/Debug/net6.0/HRM.ApplicationCore.dll
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/bin/Debug/net6.0/HRM.ApplicationCore.pdb
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/obj/Debug/net6.0/HRM.ApplicationCore.csproj.AssemblyReference.cache
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/obj/Debug/net6.0/HRM.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/obj/Debug/net6.0/HRM.ApplicationCore.AssemblyInfoInputs.cache
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/obj/Debug/net6.0/HRM.ApplicationCore.AssemblyInfo.cs
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/obj/Debug/net6.0/HRM.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/obj/Debug/net6.0/HRM.ApplicationCore.dll
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/obj/Debug/net6.0/refint/HRM.ApplicationCore.dll
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/obj/Debug/net6.0/HRM.ApplicationCore.pdb
+/Users/ElvaHan/Projects/HumanResourceManagement/HRM.ApplicationCore/obj/Debug/net6.0/ref/HRM.ApplicationCore.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HRM.Infrastructure/1.0.0": {
+        "dependencies": {
+          "HRM.ApplicationCore": "1.0.0"
+        },
+        "runtime": {
+          "HRM.Infrastructure.dll": {}
+        }
+      },
+      "HRM.ApplicationCore/1.0.0": {
+        "runtime": {
+          "HRM.ApplicationCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HRM.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HRM.ApplicationCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
