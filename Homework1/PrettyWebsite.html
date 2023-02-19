@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrettyWebsite</title>
+    <link rel="stylesheet" href="PrettyWebsiteExternal.css"/>
+</head>
+<body>
+    <div class="container">
+        <img src="/Homework1/img/Tree.jpg" alt="Tree" style="float:center;width:100%;height:100%;object-fit:cover;"><img/>
+        <div class="bottom-right">WELCOME TO MY TRAVEL SITE!</div>
+    </div>  
+    <!-- HEADER -->
+    <ul class = "navigation">
+        <li><a href="https://antra.com/">Home</a></li>
+        <li><a href="https://antra.com/job-opportunities/">Destinations</a></li>
+        <li><a href="https://antra.com/about-us/">About Us</a></li>
+    </ul>
+    <div class = "form-control" style = "position:relative; left: 1210px; top:-50px;">
+        <input type = "text" id = "search" placeholder="Search" />
+        <input type = "button" value = "Search" class = "btn btn-primary" onclick = "Search()"/>
+    </div>
+    <script>
+        function Search(){
+        let x = document.querySelector("#search").value;
+        console.log("have fun " + x);
+    }
+    </script>
+
+<article class="all-travel">
+    <h1>Most Popular Travel Sites 2023</h1>
+    <article class="travel">
+      <h2>Japan</h2>
+      <p>Japan is an island country in East Asia. It is situated in the northwest Pacific Ocean and is 
+        bordered on the west by the Sea of Japan, extending from the Sea of Okhotsk in the north toward 
+        the East China Sea, Philippine Sea, and Taiwan in the south.</p>
+    </article>
+    <article class="travel">
+      <h2>Puerto Rico</h2>
+      <p>Puerto Rico is a Caribbean island and unincorporated U.S. territory with a landscape of mountains, 
+        waterfalls and the El Yunque tropical rainforest. In San Juan, the capital and largest city, 
+        the Isla Verde area is known for its hotel strip, beach bars and casinos. Its Old San Juan neighborhood 
+        features colorful Spanish colonial buildings and El Morro and La Fortaleza, massive, centuries-old fortresses.</p>
+    </article>
+    <article class="travel">
+      <h2>Florida</h2>
+      <p>Florida is the southeasternmost U.S. state, with the Atlantic on one side and the Gulf of Mexico on the other. 
+        It has hundreds of miles of beaches. The city of Miami is known for its Latin-American cultural influences and 
+        notable arts scene, as well as its nightlife, especially in upscale South Beach. Orlando is famed for theme parks, including Walt Disney World.</p>
+    </article>
+  </article>
+
+<footer class="footer">
+    <section class="address">
+        <h4>Corporate Office: </h4>
+        <p>
+            33333 Somwehere Else <br>Suite #100 <br>Where, US 00000 <br> Ph: 123 456 7890 <br> Email: info@travel.net
+        </p>
+    </section>
+    <section class="menu">
+        <h4>Services </h4>
+        <li><a href="https://antra.com/blog/">Blog</a></li>
+        <li><a href="https://antra.com/professional-services/">Professional Services</a></li>
+        <li><a href="https://antra.com/business-advisory-services/">Transportation Services</a></li>
+    </section>
+    <section class="facebook">
+        <h4>Link To Our Page</h4>
+    <iframe src="https://www.facebook.com/profile.php?id=100071878189730" style="height:100px;width:100px;" title="AntraFBPage">  
+    </section>
+
+</footer>
+</body>
+</html>

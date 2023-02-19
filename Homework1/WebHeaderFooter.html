@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebHeaderAndFooter</title>
+<style>
+    img {
+        background-color: #dddddd;
+        overflow: hidden;
+    }
+    .navigation{
+        display:flex;
+        justify-content:flex-start;
+        column-gap: 20px;
+        
+        list-style-type: none;
+        margin: 0;
+        padding: 20px;
+        background-color: #dddddd;
+
+        font-size:x-large;
+    }
+    .form-control{
+        display: block;
+        padding:5px,10px;
+        width:80%;}
+        .dropdown .dropbtn {
+        font-size:x-large;
+        border: none;
+        outline: none;
+        color:black ;
+        padding: 14px 16px;
+        background-color: inherit;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    .dropdown-content a:hover {
+        background-color: aquamarine;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .footer{
+        display:flex;
+        justify-content:space-between;
+        column-gap: 20px;
+        
+        list-style-type: none;
+        margin: 0;
+        padding: 20px;
+        background-color: #dddddd;
+
+        font-size:x-large;
+    }
+    
+</style>    
+</head>
+<body>
+    <img src="https://antra.net" alt="Antra Logo" width="200" height = "240"><img/>
+    <!-- HEADER -->
+    <ul class = "navigation">
+        <li><a href="https://antra.com/">Home</a></li>
+        <li><a href="https://antra.com/job-opportunities/">Jobs</a></li>
+        <li><a href="https://antra.com/about-us/">About Us</a></li>
+        <li class="dropdown">
+            <button class="dropbtn">Resources </button>
+            <div class="dropdown-content">
+              <a href="https://antra.com/technology-resources/">Technology Resources</a>
+              <a href="https://antra.com/white-papers/">White Papers</a>
+              <a href="https://antra.com/case-studies/">Case Studies</a>
+            </div>
+        </li> 
+    </ul>
+    <div class = "form-control" style = "position:relative; left: 1210px; top:-50px;">
+        <input type = "text" id = "search" placeholder="Search" />
+        <input type = "button" value = "Search" class = "btn btn-primary" onclick = "Search()"/>
+    </div>
+    <script>
+        function Search(){
+        let x = document.querySelector("#search").value;
+        console.log("have fun " + x);
+    }
+    </script>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <section class="address">
+            <h4>Corporate Office: </h4>
+            <p>
+                21365 Ridgetop Circle <br>Suite #300 <br>Dulles, VA 20166 <br> Ph: 703 994 4545 <br> Email: info@antra.net
+            </p>
+        </section>
+        <section class="menu">
+            <h4>Services </h4>
+        <li><a href="https://antra.com/blog/">Blog</a></li>
+        <li><a href="https://antra.com/professional-services/">Professional Services</a></li>
+        <li><a href="https://antra.com/business-advisory-services/">Business Advisory Services</a></li>
+        </section>
+        <section class="facebook">
+            <h4>Link To Our Page</h4>
+        <iframe src="https://www.facebook.com/profile.php?id=100071878189730" style="height:100px;width:100px;" title="AntraFBPage">  
+        </section>
+
+    </footer>
+</body>
+</html>
+
+<!-- <style>
+    img {
+        background-color: #dddddd;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #dddddd;
+    }
+    li {
+        display: inline;
+        font-size:x-large;
+    }
+    li a:hover {
+        background-color:aquamarine;
+    }
+    .form-control{
+        display: block;
+        padding:5px,10px;
+        width:80%;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+        
+    }
+    .dropdown .dropbtn {
+        font-size:x-large;
+        border: none;
+        outline: none;
+        color:black ;
+        padding: 14px 16px;
+        background-color: inherit;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    .dropdown-content a:hover {
+        background-color: aquamarine;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    </style> -->
+
+<!-- <section>
+    <img src="https://antra.net" alt="Antra Logo" width="200" height = "240"><img/>
+    <nav>
+        <ul>
+            <li><a href="https://antra.com/">Home</a></li>
+            <li><a href="https://antra.com/job-opportunities/">Jobs</a></li>
+            <li><a href="https://antra.com/about-us/">About Us</a></li>
+            <li class="dropdown">
+                <button class="dropbtn">Resources </button>
+                <div class="dropdown-content">
+                  <a href="https://antra.com/technology-resources/">Technology Resources</a>
+                  <a href="https://antra.com/white-papers/">White Papers</a>
+                  <a href="https://antra.com/case-studies/">Case Studies</a>
+                </div>
+            </li> 
+        </ul>
+    </nav>
+    <div class = "form-control" style = "position:relative; left: 1210px; top:-50px;">
+        <input type = "text" id = "search" placeholder="Search" />
+        <input type = "button" value = "Search" class = "btn btn-primary" onclick = "Search()"/>
+    </div>
+    <script>
+        function Search(){
+        let x = document.querySelector("#search").value;
+        console.log("have fun " + x);
+    }
+    </script>
+</section> -->

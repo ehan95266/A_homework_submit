@@ -1,0 +1,81 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+img {
+    object-fit: cover;
+}
+.navigation{
+    display:flex;
+    justify-content:flex-start;
+    column-gap: 20px;
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color:lightcoral;
+
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation li a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.form-control{
+    display: block;
+    padding:5px,10px;
+    width:80%;}
+    .dropdown .dropbtn {
+    font-size:x-large;
+    border: none;
+    outline: none;
+    color:black ;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.all-travel {
+    margin: 0;
+    padding: 5px;
+    background-color:beige ;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.all-travel > h1, .browser {
+    margin: 5px;
+    padding: 15px;
+  }
+  
+.travel {
+    background: white;
+  }
+  
+.travel > h2, p {
+    margin: 15px;
+    font-size: 150%;
+  }
+
+.footer{
+    display:flex;
+    justify-content:space-between;
+    column-gap: 20px;
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color: lightcoral;
+
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}

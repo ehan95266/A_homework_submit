@@ -1,0 +1,43 @@
+a{
+    display:flex;
+    justify-content:flex-end;
+    background-color: aqua;
+
+    font-size:x-large;
+    height: 50px;
+}
+
+.news{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    column-gap: 20px;
+}
+
+p{
+    display: flex;
+    overflow: hidden;
+    float:none;
+    background-color: bisque;
+
+    font-size: x-large;
+    word-wrap: break-word;
+}
+
+.pagination {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+  }
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid black;
+  }
+
+  .pagination a:hover{ 
+    background-color: azure;
+  }
