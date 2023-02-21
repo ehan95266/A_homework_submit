@@ -7,7 +7,7 @@ namespace HRM.ApplicationCore.Entity
 	{
 		public int Id { get; set; }
 		[Required]
-		[Column(TypeName = "varchar(20")]
+		[Column(TypeName = "varchar(20)")]
 		public string Name { get; set; }
 		public bool IsActive { get; set; }
 	}

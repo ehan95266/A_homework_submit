@@ -18,6 +18,7 @@ namespace HRM.ApplicationCore.Entity
 		public InterviewType InterviewType { get; set; }
 		public InterviewStatus InterviewStatus { get; set; }
 		public Submission Submission { get; set; }
+		public Employee Interviewer { get; set; }
 	}
 
 

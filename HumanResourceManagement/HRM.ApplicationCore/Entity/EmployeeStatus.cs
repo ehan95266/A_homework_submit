@@ -8,10 +8,10 @@ namespace HRM.ApplicationCore.Entity
 	public class EmployeeStatus
 	{
         public int Id { get; set; }
-        [Required]
-        [Column(TypeName = "varchar(100)")]
+        [Required(ErrorMessage = "Title is required")]
+        
         public string Title { get; set; }
-        [Column(TypeName = "varchar(100)")]
+       
         public string Description { get; set; }
         public bool IsActive { get; set; }
     }

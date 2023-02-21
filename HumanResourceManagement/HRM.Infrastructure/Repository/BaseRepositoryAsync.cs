@@ -8,7 +8,9 @@ namespace HRM.Infrastructure.Repository
 	public class BaseRepositoryAsync<T>:IRepositoryAsync<T> where T : class
 	{
         private readonly HRMDbContext db;
-		public BaseRepositoryAsync(HRMDbContext _context)
+		public BaseRepositoryAsync(HRMDbContext _context) //inject an object of DbContext
+            //how does this class access to HRMDbContext? we have already done dependency injection of DbContext in Program.cs
+            //so it will handle it for us
 		{
             db = _context;
 		}
@@ -40,7 +42,7 @@ namespace HRM.Infrastructure.Repository
             return await db.SaveChangesAsync(); //committ 
         }
 
-        public async Task<int> UpdateAsync(T entity)
+        public async Task<int> UpdateAsync(T entity) //data already existed just need to modify
         {
             db.Entry(entity).State = EntityState.Modified;
             return await db.SaveChangesAsync();

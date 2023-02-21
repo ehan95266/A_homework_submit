@@ -6,6 +6,7 @@ namespace HRM.ApplicationCore.Entity
 {
 	public class JobRequirement
 	{
+		//property will be column name in jobrequirement table
 		public int Id { get; set; }
 		[Required]
 		[Column(TypeName = "varchar(100)")]

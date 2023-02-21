@@ -1,30 +1,49 @@
 ﻿<Properties StartupConfiguration="{FB4713A7-03CA-4AD3-ACA4-C2D70D868FF2}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HRM.WebMVCApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HRM.WebMVCApp/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HRM.WebMVCApp/Views/Submission/Index.cshtml">
     <Files>
-      <File FileName="HRM.ApplicationCore/Contract/Repository/IRepositoryAsync.cs" Line="14" Column="1" />
-      <File FileName="HRM.Infrastructure/Repository/CandidateRepositoryAsync.cs" Line="49" Column="1" />
-      <File FileName="HRM.Infrastructure/Repository/BaseRepositoryAsync.cs" Line="13" Column="27" />
-      <File FileName="HRM.WebMVCApp/appsettings.json" Line="12" Column="93" />
-      <File FileName="HRM.Infrastructure/Data/HRMDbContext.cs" Line="7" Column="31" />
+      <File FileName="HRM.WebMVCApp/Views/Submission/Create.cshtml" Line="21" Column="7" />
+      <File FileName="HRM.WebMVCApp/Views/Submission/Delete.cshtml" Line="19" Column="1" />
+      <File FileName="HRM.WebMVCApp/Views/Submission/Edit.cshtml" Line="22" Column="7" />
+      <File FileName="HRM.WebMVCApp/Views/Submission/Index.cshtml" Line="30" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HumanResourceManagement" expanded="True">
             <Node name="HRM.ApplicationCore" expanded="True">
-              <Node name="Contract" expanded="True" />
+              <Node name="Contract" expanded="True">
+                <Node name="Repository" expanded="True" />
+                <Node name="Service" expanded="True" />
+              </Node>
+              <Node name="Entity" expanded="True" />
+              <Node name="Model" expanded="True">
+                <Node name="Request" expanded="True" />
+                <Node name="Response" expanded="True" />
+              </Node>
             </Node>
-            <Node name="HRM.WebMVCApp" expanded="True" />
+            <Node name="HRM.Infrastructure" expanded="True">
+              <Node name="Repository" expanded="True" />
+              <Node name="Service" expanded="True" />
+            </Node>
+            <Node name="HRM.WebMVCApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Submission" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.HRM.WebMVCApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
 </Properties>

@@ -1,0 +1,49 @@
+﻿@*this will display collection of candidates*@
+@using HRM.ApplicationCore.Model.Response;
+
+@model IEnumerable<CandidateResponseModel>;
+<div class="page-header">
+    <h1>List of Candidates</h1>
+</div>
+
+<a asp-action="Create" asp-controller="Candidate">Add New Candidate</a>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead> @*group header in html table*@
+        <tr> @*defines a row in html table*@
+            <th>First Name</th> @*defines a header cell*@
+            <th>Last Name</th>
+            <th>Phone</th>
+            <th>Email Id</th>
+            <th colspan="2">Options</th>
+        </tr>
+
+    </thead>
+    <tbody> @*table body*@
+        @{
+            foreach (var m in Model)
+            {
+                <tr>
+                    <td> @*defines a standard data cell*@
+                        @m.FirstName
+                    </td>
+                    <td>
+                        @m.LastName
+                    </td>
+                    <td>
+                        @m.Mobile
+                    </td>
+                    <td>
+                        @m.EmailId
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-controller="Candidate" asp-route-id="@m.Id">Edit</a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-controller="Candidate" asp-route-id="@m.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

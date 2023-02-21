@@ -12,6 +12,8 @@ namespace HRM.Infrastructure.Data
 
 		}
 
+        // dbccontext will create the properties
+        //DbSet is like a table
 		public DbSet<JobRequirement> JobRequirement { get; set; }
         public DbSet<JobCategory> JobCategory{ get; set; }
         public DbSet<Candidate> Candidate { get; set; }

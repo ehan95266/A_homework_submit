@@ -1,0 +1,29 @@
+﻿@using HRM.ApplicationCore.Model.Request;
+
+@model CandidateRequestModel;
+    <div class="container">
+        @*tell this form to submit what value to which controller*@
+        <form asp-controller="Candidate" asp-action="Create" method="post"> @*whatever you need to submit to the server, you need to put them inside form *@
+            <div class="my-5 row col-12">
+                <label for="FirstName">First Name</label> @*label - for is used together*@
+                <input asp-for="FirstName" class="form-control" />@* asp-for is like "id" in html, bind directly with property*@
+                <span asp-validation-for="FirstName"></span> @*asp-validation-for is to make sure the input is correct*@
+            </div>
+            <div class="my-5 row col-12">
+                <label for="LastName">Last Name</label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName"></span>
+            </div>
+            <div class="my-5 row col-12">
+                <label for="Mobile">Mobile</label>
+                <input asp-for="Mobile" class="form-control" />
+                <span asp-validation-for="Mobile"></span>
+            </div>
+            <div class="my-5 row col-12">
+                <label for="EmailId">Email Id</label>
+                <input asp-for="EmailId" class="form-control" />
+                <span asp-validation-for="EmailId"></span>
+            </div>
+            <input type="submit" value="Add Candidate" class="btn btn-primary" />
+        </form>
+    </div>

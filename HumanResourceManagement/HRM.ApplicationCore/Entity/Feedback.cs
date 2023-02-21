@@ -7,7 +7,7 @@ namespace HRM.ApplicationCore.Entity
 	public class Feedback
 	{
 		public int Id { get; set; }
-		public int IntervuewId { get; set; }
+		public int InterviewId { get; set; }
         [Column(TypeName = "varchar(100)")]
         public string Description { get; set; }
 		public bool Hired { get; set; }

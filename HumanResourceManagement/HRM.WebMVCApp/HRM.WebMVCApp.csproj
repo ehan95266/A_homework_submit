@@ -17,6 +17,18 @@
   <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Views\Candidate\" />
+    <None Remove="Views\Employee\" />
+    <None Remove="Views\EmployeeRole\" />
+    <None Remove="Views\EmployeeStatus\" />
+    <None Remove="Views\EmployeeType\" />
+    <None Remove="Views\Feedback\" />
+    <None Remove="Views\Interview\" />
+    <None Remove="Views\InterviewStatus\" />
+    <None Remove="Views\InterviewType\" />
+    <None Remove="Views\JobCategory\" />
+    <None Remove="Views\JobRequirement\" />
+    <None Remove="Views\Submission\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
@@ -24,5 +36,19 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Candidate\" />
+    <Folder Include="Views\Employee\" />
+    <Folder Include="Views\EmployeeRole\" />
+    <Folder Include="Views\EmployeeStatus\" />
+    <Folder Include="Views\EmployeeType\" />
+    <Folder Include="Views\Feedback\" />
+    <Folder Include="Views\Interview\" />
+    <Folder Include="Views\InterviewStatus\" />
+    <Folder Include="Views\InterviewType\" />
+    <Folder Include="Views\JobCategory\" />
+    <Folder Include="Views\JobRequirement\" />
+    <Folder Include="Views\Submission\" />
   </ItemGroup>
 </Project>

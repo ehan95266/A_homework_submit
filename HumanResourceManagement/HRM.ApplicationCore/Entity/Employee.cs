@@ -33,7 +33,7 @@ namespace HRM.ApplicationCore.Entity
         public int EmployeeTypeId { get; set; }
         public DateTime EndDate { get; set; }
         public int EmployeeStatusId { get; set; }
-        public int ManageriD { get; set; }
+        public int ManagerId { get; set; }
 
         public EmployeeRole EmployeeRole { get; set; }
         public EmployeeStatus EmployeeStatus { get; set; }

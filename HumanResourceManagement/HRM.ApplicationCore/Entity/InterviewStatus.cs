@@ -8,6 +8,7 @@ namespace HRM.ApplicationCore.Entity
 	public class InterviewStatus
 	{
 		public int Id { get; set; }
+
         [Required]
         [Column(TypeName = "varchar(100)")]
         public string Title { get; set; }
