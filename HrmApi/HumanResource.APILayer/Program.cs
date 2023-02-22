@@ -4,6 +4,8 @@ using Hrm.Infrastructure.Data;
 using Hrm.Infrastructure.Repository;
 using Hrm.Infrastructure.Service;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +18,7 @@ builder.Services.AddControllers();
 //dependency injection for connectionstring
 builder.Services.AddDbContext<HrmDbContext>(option => {
     option.UseSqlServer(builder.Configuration.GetConnectionString("HrmApiDb"));
-
+    option.UseSqlServer(b => b.MigrationsAssembly("HumanResource.APILayer"));
 });
 
 //dependency injection for repository

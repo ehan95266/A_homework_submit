@@ -1,15 +1,33 @@
-﻿<Properties StartupConfiguration="{11249BFB-9478-4E52-9218-0211EEA8A2FF}|Default">
-  <MonoDevelop.Ide.ItemProperties.HumanResourceAPILayer PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+﻿<Properties StartupConfiguration="{817B72CA-2D7F-49DB-AA58-1A9656D7ADBA}|Default">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HumanResource.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HumanResource.APILayer/Controller/CandidateController.cs">
+    <Files>
+      <File FileName="HumanResource.APILayer/Program.cs" Line="29" Column="1" />
+      <File FileName="HumanResource.APILayer/appsettings.json" Line="13" Column="1" />
+      <File FileName="Hrm.Infrastructure/Data/HrmDbContext.cs" Line="10" Column="4" />
+      <File FileName="HumanResource.APILayer/Controller/CandidateController.cs" Line="33" Column="10" />
+      <File FileName="Hrm.ApplicationCore/Entity/Candidate.cs" Line="26" Column="48" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="HrmApi" expanded="True" selected="True" />
+          <Node name="HrmApi" expanded="True">
+            <Node name="Hrm.ApplicationCore" expanded="True">
+              <Node name="Entity" expanded="True" />
+            </Node>
+            <Node name="Hrm.Infrastructure" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Service" expanded="True" />
+            </Node>
+            <Node name="HumanResource.APILayer" expanded="True">
+              <Node name="Migrations" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
