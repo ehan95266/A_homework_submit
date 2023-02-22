@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Hrm.ApplicationCore.Contract.Service;
+using Hrm.ApplicationCore.Model.Request;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -10,19 +12,30 @@ namespace HumanResource.APILayer.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class EmployeeTypeController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private readonly IEmployeeTypeServiceAsync EmployeeTypeServiceAsync;
+
+        public EmployeeTypeController(IEmployeeTypeServiceAsync _EmployeeTypeServiceAsync)
         {
-            return Ok("This is working successfully");
+            EmployeeTypeServiceAsync = _EmployeeTypeServiceAsync;
         }
 
-        [HttpGet]
-        [Route("{name}")]
-        public IActionResult Get(string name)
+        [HttpPost]
+        public async Task<IActionResult> Post(EmployeeTypeRequestModel model)
         {
-            return Ok(new { Id = 1, Name = name, Age = 30, City = "Springfield" });
+            if (ModelState.IsValid)
+            {
+                await EmployeeTypeServiceAsync.AddEmployeeTypeAsync(model);
+                return Ok(model);
+            }
+            return BadRequest(model);
+        }
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var result = await EmployeeTypeServiceAsync.GetAllEmployeeTypesAsync();
+            return Ok(result);
         }
 
         // GET: api/values

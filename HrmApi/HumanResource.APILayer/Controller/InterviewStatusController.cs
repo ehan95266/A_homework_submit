@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Hrm.ApplicationCore.Contract.Service;
+using Hrm.ApplicationCore.Model.Request;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -10,21 +12,31 @@ namespace HumanResource.APILayer.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class InterviewStatusController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private readonly IInterviewStatusServiceAsync InterviewStatusServiceAsync;
+
+        public InterviewStatusController(IInterviewStatusServiceAsync _InterviewStatusServiceAsync)
         {
-            return Ok("This is working successfully");
+            InterviewStatusServiceAsync = _InterviewStatusServiceAsync;
         }
 
-        [HttpGet]
-        [Route("{name}")]
-        public IActionResult Get(string name)
+        [HttpPost]
+        public async Task<IActionResult> Post(InterviewStatusRequestModel model)
         {
-            return Ok(new { Id = 1, Name = name, Age = 30, City = "Springfield" });
+            if (ModelState.IsValid)
+            {
+                await InterviewStatusServiceAsync.AddInterviewStatusAsync(model);
+                return Ok(model);
+            }
+            return BadRequest(model);
         }
-
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var result = await InterviewStatusServiceAsync.GetAllInterviewStatusAsync();
+            return Ok(result);
+        }
         // GET: api/values
         //[HttpGet]
         //public IEnumerable<string> Get()

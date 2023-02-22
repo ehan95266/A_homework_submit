@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Hrm.ApplicationCore.Contract.Service;
+using Hrm.ApplicationCore.Model.Request;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -10,21 +12,31 @@ namespace HumanResource.APILayer.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class JobCategoryController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private readonly IJobCategoryServiceAsync JobCategoryServiceAsync;
+
+        public JobCategoryController(IJobCategoryServiceAsync _JobCategoryServiceAsync)
         {
-            return Ok("This is working successfully");
+            JobCategoryServiceAsync = _JobCategoryServiceAsync;
         }
 
-        [HttpGet]
-        [Route("{name}")]
-        public IActionResult Get(string name)
+        [HttpPost]
+        public async Task<IActionResult> Post(JobCategoryRequestModel model)
         {
-            return Ok(new { Id = 1, Name = name, Age = 30, City = "Springfield" });
+            if (ModelState.IsValid)
+            {
+                await JobCategoryServiceAsync.AddJobCategoryAsync(model);
+                return Ok(model);
+            }
+            return BadRequest(model);
         }
-
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var result = await JobCategoryServiceAsync.GetAllJobCategoriesAsync();
+            return Ok(result);
+        }
         // GET: api/values
         //[HttpGet]
         //public IEnumerable<string> Get()
