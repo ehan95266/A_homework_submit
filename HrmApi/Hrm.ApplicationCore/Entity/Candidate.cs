@@ -18,14 +18,15 @@ namespace Hrm.ApplicationCore.Entity
         [Column(TypeName = "varchar(10)")]
         [DataType(DataType.PhoneNumber)]
         public string Mobile { get; set; }
+
         [Required]
+
         [Column(TypeName = "varchar(70)")]
         [DataType(DataType.EmailAddress)]
         public string EmailId { get; set; }
-        //[Column(TypeName = "varchar(200)")]
-        //public string ResumeUrl { get; set; }
-        //[Column(TypeName = "varchar(200)")]
-        //public string CurrentAddress { get; set; }
+
+        [Column(TypeName = "varchar(200)")]
+        public string? ResumeUrl { get; set; }
 
     }
 }
