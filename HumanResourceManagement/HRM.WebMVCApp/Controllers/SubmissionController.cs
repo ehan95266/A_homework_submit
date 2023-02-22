@@ -14,10 +14,13 @@ namespace HRM.WebMVCApp.Controllers
     public class SubmissionController : Controller
     {
         private readonly ISubmissionServiceAsync submissionServiceAsync;
+        private readonly ICandidateServiceAsync candidateServiceAsync;
 
-        public SubmissionController(ISubmissionServiceAsync _submissionServiceAsync)
+        public SubmissionController(ISubmissionServiceAsync submissionServiceAsync,ICandidateServiceAsync candidateServiceAsync)
+            
         {
-            submissionServiceAsync = _submissionServiceAsync;
+            submissionServiceAsync = submissionServiceAsync;
+            candidateServiceAsync = candidateServiceAsync;
         }
         // GET: /<controller>/
         public async Task<IActionResult> Index()
@@ -25,8 +28,9 @@ namespace HRM.WebMVCApp.Controllers
             var submissionCollection = await submissionServiceAsync.GetAllSubmissionsAsync();
             return View(submissionCollection);
         }
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            ViewBag.CandidateList = await candidateServiceAsync.GetAllCandidatesAsync();
             return View();
         }
         [HttpPost]
@@ -68,9 +72,10 @@ namespace HRM.WebMVCApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(SubmissionResponseModel model)
         {
-            await submissionServiceAsync.DeleteSubmissionAsync(model.id);
+            await submissionServiceAsync.DeleteSubmissionAsync(model.Id);
             return RedirectToAction("Index");
         }
+
     }
 }
 

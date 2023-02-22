@@ -43,7 +43,7 @@ namespace HRM.Infrastructure.Service
             return employeeRepositoryAsync.DeleteAsync(id);
         }
 
-        public async Task<IEnumerable<EmployeeResponseModel>> GetAllEmployeesAsync()
+        public async Task<IEnumerable<EmployeeResponseModel>> GetAllEmployeeAsync()
         {
             var result = await employeeRepositoryAsync.GetAllAsync();
             if (result != null)
@@ -117,6 +117,8 @@ namespace HRM.Infrastructure.Service
             };
             return employeeRepositoryAsync.UpdateAsync(employee);
         }
+
+        
     }
 }
 

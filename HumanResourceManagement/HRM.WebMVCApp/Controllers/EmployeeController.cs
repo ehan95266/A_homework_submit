@@ -22,7 +22,7 @@ namespace HRM.WebMVCApp.Controllers
         // GET: /<controller>/
         public async Task<IActionResult> Index()
         {
-            var candidateCollection = await employeeServiceAsync.GetAllEmployeesAsync();
+            var candidateCollection = await employeeServiceAsync.GetAllEmployeeAsync();
             return View(candidateCollection);
         }
         public IActionResult Create()
