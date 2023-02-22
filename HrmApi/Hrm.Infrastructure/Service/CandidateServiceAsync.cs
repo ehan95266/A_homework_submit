@@ -9,22 +9,20 @@ namespace Hrm.Infrastructure.Service
 {
     public class CandidateServiceAsync : ICandidateServiceAsync
     {
-        private readonly ICandidateRepositoryAsync candidateRepositoryAsync; //creates object of ICandidateRepository
+        private readonly ICandidateRepositoryAsync candidateRepositoryAsync;
 
-        public CandidateServiceAsync(ICandidateRepositoryAsync _candidateRepositoryAsync) //injecting ICandidateRepository type to the constructor
+        public CandidateServiceAsync(ICandidateRepositoryAsync _candidateRepositoryAsync)
         {
-            candidateRepositoryAsync = _candidateRepositoryAsync; //this is object of CandidateRepositoryAsync class
+            candidateRepositoryAsync = _candidateRepositoryAsync;
         }
-
         public Task<int> AddCandidateAsync(CandidateRequestModel model)
         {
             Candidate candidate = new Candidate()
             {
-                //give properties to the candidate object
                 FirstName = model.FirstName,
                 LastName = model.LastName,
-                Mobile = model.Mobile,
-                EmailId = model.EmailId
+                EmailId = model.EmailId,
+                Mobile = model.Mobile
 
             };
             return candidateRepositoryAsync.InsertAsync(candidate);
@@ -35,12 +33,12 @@ namespace Hrm.Infrastructure.Service
             return candidateRepositoryAsync.DeleteAsync(id);
         }
 
-        public async Task<IEnumerable<CandidateResponseModel>> GetAllCandidatesAsync() //return a list of candidates
+        public async Task<IEnumerable<CandidateResponseModel>> GetAllCandidatesAsync()
         {
             var result = await candidateRepositoryAsync.GetAllAsync();
             if (result != null)
             {
-                result.ToList().Select(x => new CandidateResponseModel()
+                return result.ToList().Select(x => new CandidateResponseModel()
                 { Id = x.Id, EmailId = x.EmailId, FirstName = x.FirstName, LastName = x.LastName, Mobile = x.Mobile });
             }
             return null;
@@ -58,14 +56,15 @@ namespace Hrm.Infrastructure.Service
                     LastName = result.LastName,
                     Mobile = result.Mobile,
                     EmailId = result.EmailId
+
                 };
             }
             return null;
-
         }
 
-        public Task<int> UpdateCandidateAsync(CandidateRequestModel model) //requesting the data
+        public Task<int> UpdateCandidateAsync(CandidateRequestModel model)
         {
+
             Candidate candidate = new Candidate()
             {
                 Id = model.Id,
@@ -75,6 +74,8 @@ namespace Hrm.Infrastructure.Service
                 Mobile = model.Mobile
             };
             return candidateRepositoryAsync.UpdateAsync(candidate);
+
+
         }
     }
 }

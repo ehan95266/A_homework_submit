@@ -5,9 +5,9 @@ using Hrm.Infrastructure.Data;
 
 namespace Hrm.Infrastructure.Repository
 {
-    public class CandidateRepositoryAsync : BaseRepositoryAsync<Candidate>, ICandidateRepositoryAsync
+    public class EmployeeStatusRepositoryAsync : BaseRepositoryAsync<EmployeeStatus>, IEmployeeStatusRepositoryAsync
     {
-        public CandidateRepositoryAsync(HrmDbContext _context) : base(_context)
+        public EmployeeStatusRepositoryAsync(HrmDbContext _context) : base(_context)
         {
         }
     }
