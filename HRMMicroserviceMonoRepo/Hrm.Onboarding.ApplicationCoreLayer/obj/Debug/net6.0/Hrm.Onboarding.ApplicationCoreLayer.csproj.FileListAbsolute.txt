@@ -1,0 +1,12 @@
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Onboarding.ApplicationCoreLayer.deps.json
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Onboarding.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Onboarding.ApplicationCoreLayer.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Onboarding.ApplicationCoreLayer.csproj.AssemblyReference.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Onboarding.ApplicationCoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Onboarding.ApplicationCoreLayer.AssemblyInfoInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Onboarding.ApplicationCoreLayer.AssemblyInfo.cs
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Onboarding.ApplicationCoreLayer.csproj.CoreCompileInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Onboarding.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/obj/Debug/net6.0/refint/Hrm.Onboarding.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Onboarding.ApplicationCoreLayer.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.ApplicationCoreLayer/obj/Debug/net6.0/ref/Hrm.Onboarding.ApplicationCoreLayer.dll

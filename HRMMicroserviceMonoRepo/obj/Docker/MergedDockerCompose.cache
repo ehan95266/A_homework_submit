@@ -1,0 +1,57 @@
+name: dockercompose5992954898570063247
+services:
+  hrm.authentication.apilayer:
+    build:
+      context: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      dockerfile: Hrm.Authentication.APILayer/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: hrmauthentication
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+  hrm.interview.apilayer:
+    build:
+      context: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      dockerfile: Hrm.Interview.APILayer/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: hrminterview
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+  hrm.onboarding.apilayer:
+    build:
+      context: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      dockerfile: Hrm.Onboarding.APILayer/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: hrmonboarding
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+  hrm.recruiting.apilayer:
+    build:
+      context: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      dockerfile: Hrm.Recruiting.APILayer/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: hrmrecruiting
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose5992954898570063247_default

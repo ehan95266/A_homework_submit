@@ -1,0 +1,12 @@
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.deps.json
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.csproj.AssemblyReference.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.AssemblyInfoInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.AssemblyInfo.cs
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.csproj.CoreCompileInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/obj/Debug/net6.0/refint/Hrm.Interview.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.ApplicationCoreLayer/obj/Debug/net6.0/ref/Hrm.Interview.ApplicationCoreLayer.dll

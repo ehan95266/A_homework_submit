@@ -1,0 +1,105 @@
+version: '3.4'
+
+services:
+  hrm.authentication.apilayer:
+    image: hrmauthentication:dev
+    container_name: Hrm.Authentication.APILayer
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Hrm.Authentication.APILayer"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.APILayer:/app
+      - /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo:/src
+      - /Users/ElvaHan/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/ElvaHan/.nuget/packages/:/root/.nuget/packages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net6.0/Hrm.Authentication.APILayer.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+  hrm.interview.apilayer:
+    image: hrminterview:dev
+    container_name: Hrm.Interview.APILayer
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Hrm.Interview.APILayer"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.APILayer:/app
+      - /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo:/src
+      - /Users/ElvaHan/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/ElvaHan/.nuget/packages/:/root/.nuget/packages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net6.0/Hrm.Interview.APILayer.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  hrm.onboarding.apilayer:
+    image: hrmonboarding:dev
+    container_name: Hrm.Onboarding.APILayer
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Hrm.Onboarding.APILayer"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.APILayer:/app
+      - /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo:/src
+      - /Users/ElvaHan/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/ElvaHan/.nuget/packages/:/root/.nuget/packages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net6.0/Hrm.Onboarding.APILayer.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  hrm.recruiting.apilayer:
+    image: hrmrecruiting:dev
+    container_name: Hrm.Recruiting.APILayer
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Hrm.Recruiting.APILayer"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.APILayer:/app
+      - /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo:/src
+      - /Users/ElvaHan/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/ElvaHan/.nuget/packages/:/root/.nuget/packages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net6.0/Hrm.Recruiting.APILayer.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true

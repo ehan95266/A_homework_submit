@@ -1,0 +1,17 @@
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/bin/Debug/net6.0/Hrm.Authentication.Infrastructure.deps.json
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/bin/Debug/net6.0/Hrm.Authentication.Infrastructure.runtimeconfig.json
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/bin/Debug/net6.0/Hrm.Authentication.Infrastructure.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/bin/Debug/net6.0/Hrm.Authentication.Infrastructure.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/bin/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/bin/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/obj/Debug/net6.0/Hrm.Authentication.Infrastructure.csproj.AssemblyReference.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/obj/Debug/net6.0/Hrm.Authentication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/obj/Debug/net6.0/Hrm.Authentication.Infrastructure.AssemblyInfoInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/obj/Debug/net6.0/Hrm.Authentication.Infrastructure.AssemblyInfo.cs
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/obj/Debug/net6.0/Hrm.Authentication.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/obj/Debug/net6.0/Hrm.Authentication.Infrastructure.csproj.CopyComplete
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/obj/Debug/net6.0/Hrm.Authentication.Infrastructure.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/obj/Debug/net6.0/refint/Hrm.Authentication.Infrastructure.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/obj/Debug/net6.0/Hrm.Authentication.Infrastructure.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/obj/Debug/net6.0/Hrm.Authentication.Infrastructure.genruntimeconfig.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.Infrastructure/obj/Debug/net6.0/ref/Hrm.Authentication.Infrastructure.dll

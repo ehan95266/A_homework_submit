@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{1330B7C5-E646-4757-8038-64807E267C02}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Src.Interview.Hrm.Interview.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Src.Authentication.Hrm.Authentication.APILayer PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{D08103E4-34BE-408A-BBF5-35FAC249B7E3}" ItemName="Hrm.Authentication.APILayer" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Src.Recruiting.Hrm.Recruiting.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HRMMicroserviceMonoRepo" expanded="True">
+            <Node name="Src" expanded="True">
+              <Node name="Interview" expanded="True">
+                <Node name="Hrm.Interview.APILayer" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                </Node>
+                <Node name="Hrm.Interview.ApplicationCoreLayer" expanded="True">
+                  <Node name="Entity" expanded="True" />
+                  <Node name="ModelAsync" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Src.Onboarding.Hrm.Onboarding.APILayer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

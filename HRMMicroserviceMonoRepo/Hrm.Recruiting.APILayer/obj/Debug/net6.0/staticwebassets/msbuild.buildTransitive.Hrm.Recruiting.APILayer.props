@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Hrm.Recruiting.APILayer.props" />
+</Project>

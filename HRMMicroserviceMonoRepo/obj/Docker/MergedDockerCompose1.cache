@@ -1,0 +1,221 @@
+name: dockercompose5992954898570063247
+services:
+  hrm.authentication.apilayer:
+    build:
+      context: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      dockerfile: Hrm.Authentication.APILayer/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Hrm.Authentication.APILayer
+      target: base
+    container_name: Hrm.Authentication.APILayer
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+    image: hrmauthentication:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net6.0/Hrm.Authentication.APILayer.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.APILayer
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/vsdbg/vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/.nuget/packages/
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+  hrm.interview.apilayer:
+    build:
+      context: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      dockerfile: Hrm.Interview.APILayer/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Hrm.Interview.APILayer
+      target: base
+    container_name: Hrm.Interview.APILayer
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+    image: hrminterview:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net6.0/Hrm.Interview.APILayer.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.APILayer
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/vsdbg/vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/.nuget/packages/
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+  hrm.onboarding.apilayer:
+    build:
+      context: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      dockerfile: Hrm.Onboarding.APILayer/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Hrm.Onboarding.APILayer
+      target: base
+    container_name: Hrm.Onboarding.APILayer
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+    image: hrmonboarding:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net6.0/Hrm.Onboarding.APILayer.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Onboarding.APILayer
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/vsdbg/vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/.nuget/packages/
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+  hrm.recruiting.apilayer:
+    build:
+      context: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      dockerfile: Hrm.Recruiting.APILayer/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Hrm.Recruiting.APILayer
+      target: base
+    container_name: Hrm.Recruiting.APILayer
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+    image: hrmrecruiting:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net6.0/Hrm.Recruiting.APILayer.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.APILayer
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/vsdbg/vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: /Users/ElvaHan/.nuget/packages/
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose5992954898570063247_default

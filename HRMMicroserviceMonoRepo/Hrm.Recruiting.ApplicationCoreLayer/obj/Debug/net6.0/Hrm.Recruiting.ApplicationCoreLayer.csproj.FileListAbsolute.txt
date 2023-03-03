@@ -1,0 +1,12 @@
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Recruiting.ApplicationCoreLayer.deps.json
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Recruiting.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Recruiting.ApplicationCoreLayer.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Recruiting.ApplicationCoreLayer.csproj.AssemblyReference.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Recruiting.ApplicationCoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Recruiting.ApplicationCoreLayer.AssemblyInfoInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Recruiting.ApplicationCoreLayer.AssemblyInfo.cs
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Recruiting.ApplicationCoreLayer.csproj.CoreCompileInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Recruiting.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/obj/Debug/net6.0/refint/Hrm.Recruiting.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Recruiting.ApplicationCoreLayer.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Recruiting.ApplicationCoreLayer/obj/Debug/net6.0/ref/Hrm.Recruiting.ApplicationCoreLayer.dll

@@ -1,0 +1,17 @@
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/bin/Debug/net6.0/Hrm.Interview.Infrastructure.deps.json
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/bin/Debug/net6.0/Hrm.Interview.Infrastructure.runtimeconfig.json
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/bin/Debug/net6.0/Hrm.Interview.Infrastructure.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/bin/Debug/net6.0/Hrm.Interview.Infrastructure.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/bin/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/bin/Debug/net6.0/Hrm.Interview.ApplicationCoreLayer.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/obj/Debug/net6.0/Hrm.Interview.Infrastructure.csproj.AssemblyReference.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/obj/Debug/net6.0/Hrm.Interview.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/obj/Debug/net6.0/Hrm.Interview.Infrastructure.AssemblyInfoInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/obj/Debug/net6.0/Hrm.Interview.Infrastructure.AssemblyInfo.cs
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/obj/Debug/net6.0/Hrm.Interview.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/obj/Debug/net6.0/Hrm.Interview.Infrastructure.csproj.CopyComplete
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/obj/Debug/net6.0/Hrm.Interview.Infrastructure.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/obj/Debug/net6.0/refint/Hrm.Interview.Infrastructure.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/obj/Debug/net6.0/Hrm.Interview.Infrastructure.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/obj/Debug/net6.0/Hrm.Interview.Infrastructure.genruntimeconfig.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Interview.Infrastructure/obj/Debug/net6.0/ref/Hrm.Interview.Infrastructure.dll

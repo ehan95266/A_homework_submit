@@ -1,0 +1,12 @@
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.deps.json
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/bin/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.csproj.AssemblyReference.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.AssemblyInfoInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.AssemblyInfo.cs
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.csproj.CoreCompileInputs.cache
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/obj/Debug/net6.0/refint/Hrm.Authentication.ApplicationCoreLayer.dll
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/obj/Debug/net6.0/Hrm.Authentication.ApplicationCoreLayer.pdb
+/Users/ElvaHan/Gitrepository/HRMMicroservice/HRMMicroserviceMonoRepo/Hrm.Authentication.ApplicationCoreLayer/obj/Debug/net6.0/ref/Hrm.Authentication.ApplicationCoreLayer.dll

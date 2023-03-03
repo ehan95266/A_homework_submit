@@ -1,0 +1,73 @@
+version: '3.4'
+
+services:
+  hrm.authentication.apilayer:
+    container_name: Hrm.Authentication.APILayer
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Hrm.Authentication.APILayer"
+    volumes:
+      - /Users/ElvaHan/vsdbg/vs2017u5:/remote_debugger:rw
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/Hrm.Authentication.APILayer.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "Hrm.Authentication.APILayer"
+    tty: true
+  hrm.interview.apilayer:
+    container_name: Hrm.Interview.APILayer
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Hrm.Interview.APILayer"
+    volumes:
+      - /Users/ElvaHan/vsdbg/vs2017u5:/remote_debugger:rw
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/Hrm.Interview.APILayer.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "Hrm.Interview.APILayer"
+    tty: true
+
+  hrm.onboarding.apilayer:
+    container_name: Hrm.Onboarding.APILayer
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Hrm.Onboarding.APILayer"
+    volumes:
+      - /Users/ElvaHan/vsdbg/vs2017u5:/remote_debugger:rw
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/Hrm.Onboarding.APILayer.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "Hrm.Onboarding.APILayer"
+    tty: true
+
+  hrm.recruiting.apilayer:
+    container_name: Hrm.Recruiting.APILayer
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Hrm.Recruiting.APILayer"
+    volumes:
+      - /Users/ElvaHan/vsdbg/vs2017u5:/remote_debugger:rw
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/Hrm.Recruiting.APILayer.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "Hrm.Recruiting.APILayer"
+    tty: true
