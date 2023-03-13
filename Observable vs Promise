@@ -1,0 +1,10 @@
+obervable vs promise:
+1. Observable is lazy - it only executes when subscribe() is called
+   Promose is eager - it starts executing once it is defined
+2. Observable can be syn or async - if we pass value async, then observable will behave asyc; same behavior with sync. 
+   Promise will always be async
+3. Observable can emit multiple streams of values, once it is subscribed, a stream will be open and all emitted values will be captured. /
+   The stream will be closed once unsubscribed
+   Promise can return only one value, either resolve or reject. 
+4. Observable is cancellable by unsubscribing
+   Promise is non-cancellable, since it returns only one value and executed immediately once defined, there is no way to cancel. 
